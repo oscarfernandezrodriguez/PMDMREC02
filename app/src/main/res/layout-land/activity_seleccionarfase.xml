@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.Light">
+
+    <Spinner
+        android:id="@+id/faseSC"
+        android:layout_width="256dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="153dp"
+        android:entries="@array/fases"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="388dp"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="278dp"
+        android:layout_marginBottom="76dp"
+        android:text="@string/gardar"
+        android:theme="@android:style/Theme.Light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/provinciaSC"
+        android:layout_width="257dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="266dp"
+        android:layout_marginBottom="247dp"
+        android:entries="@array/provincias"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/provinciaST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="392dp"
+        android:layout_marginBottom="308dp"
+        android:text="@string/provinciaS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="423dp"
+        android:layout_marginBottom="209dp"
+        android:text="@string/faseT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PMDMREC02</string>
+    <string name="tipousert">Tipo de usuario</string>
+    <string name="usuariot">Usuario:</string>
+    <string name="contrasenat">Contraseña:</string>
+    <string name="botonEntrar">Acceder</string>
+    <string name="errorL">Ha fallado la autenticación o hay campos vacios!!</string>
+    <string name="errorU">Tiene que introducir el nombre del usuario!!</string>
+    <string name="errorUA">Un usuario no puede llamarse admin, logueese como administrador</string>
+    <string name="errorAC">La contraseña de Administrador no es válida</string>
+    <string name="errorAU">el nombre de usuario de Administrador no es válido!</string>
+    <string name="botonVerFase">Ver fase desconfinamiento</string>
+    <string name="botonSair">Sair</string>
+    <string name="botonEngadirFase">Engadir fase</string>
+    <string name="botonSeleccionarFase">Seleccionar fase para unha provincia.</string>
+    <string name="seleccionarP">Seleccione una provincia:</string>
+    <string name="nombre">Nombre</string>
+    <string name="administrador">Administrador</string>
+    <string name="engadirFase">Engadir Fase</string>
+    <string name="seleccionarFase">Seleccionar fase para unha provincia</string>
+    <string name="fase0">Fase 0</string>
+    <string name="nombreP">A Coruña</string>
+    <string name="nomeFase">Nome de fase</string>
+    <string name="caracteristicas">Caracteristicas</string>
+    <string name="gardar">Gardar</string>
+    <string name="provinciaS">Seleccione provincia</string>
+    <string name="faseT">Seleccione fase</string>
+</resources>
