@@ -15,7 +15,7 @@ public class Usuario extends AppCompatActivity {
         setContentView(R.layout.activity_usuario);
         Bundle bundle = getIntent().getExtras();
         TextView NombreT = (TextView) findViewById(R.id.nombre);
-        NombreT.setText(bundle.getString("nombre"));
+        NombreT.setText("Usuario");
     }
 
     public void verFase(View view) {

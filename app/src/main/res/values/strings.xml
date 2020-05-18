@@ -4,11 +4,9 @@
     <string name="usuariot">Usuario:</string>
     <string name="contrasenat">Contraseña:</string>
     <string name="botonEntrar">Acceder</string>
-    <string name="errorL">Ha fallado la autenticación o hay campos vacios!!</string>
-    <string name="errorU">Tiene que introducir el nombre del usuario!!</string>
-    <string name="errorUA">Un usuario no puede llamarse admin, logueese como administrador</string>
     <string name="errorAC">La contraseña de Administrador no es válida</string>
-    <string name="errorAU">el nombre de usuario de Administrador no es válido!</string>
+    <string name="errorAU">El nombre de usuario de Administrador no es válido!</string>
+    <string name="errorAN">No ha cubierto los datos correctos para administrador!</string>
     <string name="botonVerFase">Ver fase desconfinamiento</string>
     <string name="botonSair">Sair</string>
     <string name="botonEngadirFase">Engadir fase</string>

@@ -37,17 +37,10 @@ public class MainActivity extends AppCompatActivity {
         }else if(usuarioT.equals("admin") && !contrasenaT.equals("abc123.") && tipoUT.equals("Administrador")){
             error = Toast.makeText(this, R.string.errorAC,Toast.LENGTH_LONG);
             error.show();
-        }else if(!usuarioT.isEmpty() && !usuarioT.equals("admin") && tipoUT.equals("Usuario") ){
-            usuarioL.putExtra("nombre", usuarioT);
+        }else if(tipoUT.equals("Usuario") ) {
             startActivity(usuarioL);
-        }else if(!usuarioT.isEmpty() && usuarioT.equals("admin") && tipoUT.equals("Usuario") ){
-            error = Toast.makeText(this, R.string.errorUA,Toast.LENGTH_LONG);
-            error.show();
-        }else if(usuarioT.isEmpty() && tipoUT.equals("Usuario") ){
-            error = Toast.makeText(this, R.string.errorU,Toast.LENGTH_LONG);
-            error.show();
         }else{
-            error = Toast.makeText(this, R.string.errorL,Toast.LENGTH_LONG);
+            error = Toast.makeText(this, R.string.errorAN,Toast.LENGTH_LONG);
             error.show();
         }
 
